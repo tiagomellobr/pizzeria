@@ -1,6 +1,12 @@
 # Pizzeria API 
 *by Tiago*
 
+## Github Clone
+```bash
+$ git clone https://github.com/tiagomellobr/pizzeria.git
+$ cd pizzeria/
+```
+
 ## Run Local Environment
 - set up a local database
 - change the connection in settings.py
