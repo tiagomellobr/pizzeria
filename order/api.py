@@ -53,3 +53,5 @@ class OrderViewSet(viewsets.ModelViewSet):
         permissions.AllowAny
     ]
     serializer_class = OrderSerializer
+    filter_fields = ('id', 'status__id', 'customer__id', )
+
