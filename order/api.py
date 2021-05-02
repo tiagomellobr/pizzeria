@@ -54,4 +54,4 @@ class OrderViewSet(viewsets.ModelViewSet):
     ]
     serializer_class = OrderSerializer
     filter_fields = ('id', 'status__id', 'customer__id', )
-
+    ordering_fields = {'id': 'id', 'status': 'status__id', 'customer': 'customer__id'}
